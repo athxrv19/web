@@ -1,0 +1,187 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-right: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff6600; /* Change the color on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+nav ul {
+    list-style: none;
+    animation: fadeIn 1s ease-in-out; /* Add fade-in animation to the entire list */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out; /* Add fade-in animation to each list item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px); /* Optionally, you can add a slight upward movement */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+
+nav ul li a i {
+    font-size: 15px; 
+    margin-right: 5px; 
+    vertical-align: middle;
+}
+
+nav ul li a .fas.fa-user { /* Styles for the user icon */
+    color: #ff6600; 
+}
+
+nav ul li a .fas.fa-code { /* Styles for the code icon */
+    color: #33cc33; 
+}
+
+nav ul li a .fas.fa-envelope { /* Styles for the envelope icon */
+    color: #0099cc; 
+}
+
+nav ul li a .fas.fa-project-diagram { /* Styles for the envelope icon */
+    color: #ccb800; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f0f0; 
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    animation: fadeInUp 1s ease-in-out;
+}
